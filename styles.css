@@ -200,3 +200,11 @@
 .experience-row span{color:var(--accent)}
 .experience-row p span{font-weight:600}
 @media(max-width:700px){.proven-experience{margin-top:28px}.experience-row{grid-template-columns:1fr;gap:10px;padding:24px 0}.experience-row h3{font-size:22px}.experience-row p{font-size:16px}}
+
+.signature {
+  font-family: "Square Peg", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(60px, 7vw, 88px);
+  letter-spacing: 0;
+}
